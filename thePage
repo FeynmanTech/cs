@@ -17,6 +17,12 @@
 <title><?php echo $_POST['title']; ?> </title
 </head>
 <body>
+<style>
+body {
+  background-color: <?php echo $_POST['bgcolor']; ?>;
+  color: <?php echo $_POST['color']; ?>;
+}
+</style>
 <?php print('<img src="img/die".rand(1,6).'.png">'); ?>
 <br>
 <h1><?php echo $_POST['heading']; ?></h1><br><div><?php echo $_POST; ?></div>
