@@ -1,3 +1,5 @@
+/* 
+***** FORM *****
 <html><head></head>
 <body>
 <form action="thePage.php" method="POST">
@@ -10,8 +12,9 @@
   <input type="submit">
 </form>
 </body>
+*/
 
----------- thePage.php ----------
+////////// thePage.php //////////
 <html>
 <head>
 <title><?php echo $_POST['title']; ?> </title>
